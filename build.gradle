@@ -5,6 +5,18 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
 }
 
+allprojects{
+    repositories{
+        google()
+        maven{
+            url "https://maven.pkg.jetbrains.space/data2viz/p/maven/dev"
+        }
+        maven{
+            url "https://maven.pkg.jetbrains.space/data2viz/p/maven/public"
+        }
+    }
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
