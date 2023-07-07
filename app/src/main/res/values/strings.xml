@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Plotting-activity</string>
+    <string name="button_text">See my future</string>
 </resources>
