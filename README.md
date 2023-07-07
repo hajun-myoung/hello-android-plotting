@@ -4,7 +4,7 @@ Trying to plot some graphs on the Android native environment, using the Kotlin a
 
 ## Init
 
-### Initialize by
+### Initialized by
 
 Initialize with Blank Project, on the Android Studio
 
